@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cuenta verificada — Cazadores de la Verdad</title>
+  <style>
+    :root {
+      --bg: #0f1219;
+      --panel: #1a2030;
+      --accent: #5adb8f;
+      --text: #e8eef8;
+      --muted: #8b96ab;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh;
+      font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+      background: radial-gradient(ellipse at top, #1a2538 0%, var(--bg) 55%);
+      color: var(--text);
+      display: flex; align-items: center; justify-content: center;
+      padding: 24px;
+    }
+    .card {
+      max-width: 420px;
+      background: var(--panel);
+      border-radius: 16px;
+      padding: 28px 26px;
+      border: 1px solid rgba(255,255,255,.06);
+      box-shadow: 0 24px 48px rgba(0,0,0,.35);
+      text-align: center;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: .02em;
+    }
+    .badge {
+      display: inline-block;
+      font-size: .72rem;
+      text-transform: uppercase;
+      letter-spacing: .14em;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+    p { margin: 0 0 14px; line-height: 1.55; color: var(--muted); font-size: .95rem; }
+    p strong { color: var(--text); }
+    .footer { margin-top: 18px; font-size: .78rem; color: rgba(139,150,171,.65); }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">Cazadores de la Verdad</div>
+    <h1>¡Tu cuenta está verificada!</h1>
+    <p>Tu correo electrónico fue confirmado correctamente. Podés <strong>cerrar esta pestaña</strong> y volver al juego para iniciar sesión.</p>
+    <p>Si cerraste la app, ábrela de nuevo y usa tu email y contraseña.</p>
+    <div class="footer">Si no solicitaste esta cuenta, ignorá este mensaje.</div>
+  </div>
+</body>
+</html>
+
